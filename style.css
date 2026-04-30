@@ -1,0 +1,41 @@
+* {
+margin:0%;
+padding: 0%;
+box-sizing: border-box;
+}
+
+body{
+background-color: rgb(103, 86, 61);
+color: darkkhaki;
+font-size: 2vw;
+letter-spacing: 0.1px;
+line-height: 2;
+word-spacing: 1px;
+word-break: keep-all;
+text-align: left;
+padding: 30px;
+padding-left: 30px;
+max-width: 800px;
+margin: auto;
+}
+
+h1,
+h2,
+h3
+{
+    text-align: center;
+    color:oklab(87.046% -0.05889 0.07145)
+}
+h1
+{
+    border-bottom: 2px solid darkkhaki;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+    
+}
+ul li {
+    color:tomato
+}
+.ddd:hover{
+    color:tomato
+}
