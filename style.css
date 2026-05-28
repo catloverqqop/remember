@@ -39,3 +39,44 @@ ul li {
 .ddd:hover{
     color:tomato
 }
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+.container {
+display: flex;
+justify-content: center;
+align-items: left;
+height: 100vh;
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+}
+
+.table {
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: ;
+width: 100%;
+text-align: left;
+}
+
+.row1 {
+padding: 0%;
+border: 1px solid rgb(228, 155, 186);
+color:rgb(228, 155, 186);
+}
+
+.row2 {
+padding: 0%;
+border: 1px solid rgb(164, 109, 198);
+color: rgb(164, 109, 198);
+}
+
+.row3 {
+padding: 0%;
+border: 1px solid rgb(102, 199, 198);
+color: rgb(102, 199, 198);
+}
